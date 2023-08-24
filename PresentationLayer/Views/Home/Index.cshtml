@@ -1,0 +1,15 @@
+﻿@model List<MemberViewModel>
+
+<div class="text-center">
+    <h1 class="display-4">Club Members</h1>
+    <div class="container">
+        @foreach (var m in Model)
+        {
+            <div>
+                <span>@m.Name</span>
+                <span>@m.Surname</span>
+            </div>
+            
+        }
+    </div>
+</div>
